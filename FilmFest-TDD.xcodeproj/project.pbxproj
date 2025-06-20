@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		677823F72DFF076F008EEF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677823D82DFF076D008EEF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677823DF2DFF076D008EEF62;
+			remoteInfo = "FilmFest-TDD";
+		};
+		677824012DFF076F008EEF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677823D82DFF076D008EEF62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677823DF2DFF076D008EEF62;
+			remoteInfo = "FilmFest-TDD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		677823E02DFF076D008EEF62 /* FilmFest-TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FilmFest-TDD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677823F62DFF076F008EEF62 /* FilmFest-TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FilmFest-TDDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		677824002DFF076F008EEF62 /* FilmFest-TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FilmFest-TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		677824082DFF076F008EEF62 /* Exceptions for "FilmFest-TDD" folder in "FilmFest-TDD" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 677823DF2DFF076D008EEF62 /* FilmFest-TDD */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		677823E22DFF076D008EEF62 /* FilmFest-TDD */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				677824082DFF076F008EEF62 /* Exceptions for "FilmFest-TDD" folder in "FilmFest-TDD" target */,
+			);
+			path = "FilmFest-TDD";
+			sourceTree = "<group>";
+		};
+		677823F92DFF076F008EEF62 /* FilmFest-TDDTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FilmFest-TDDTests";
+			sourceTree = "<group>";
+		};
+		677824032DFF076F008EEF62 /* FilmFest-TDDUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FilmFest-TDDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		677823DD2DFF076D008EEF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823F32DFF076F008EEF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823FD2DFF076F008EEF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677823D72DFF076D008EEF62 = {
+			isa = PBXGroup;
+			children = (
+				677823E22DFF076D008EEF62 /* FilmFest-TDD */,
+				677823F92DFF076F008EEF62 /* FilmFest-TDDTests */,
+				677824032DFF076F008EEF62 /* FilmFest-TDDUITests */,
+				677823E12DFF076D008EEF62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		677823E12DFF076D008EEF62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				677823E02DFF076D008EEF62 /* FilmFest-TDD.app */,
+				677823F62DFF076F008EEF62 /* FilmFest-TDDTests.xctest */,
+				677824002DFF076F008EEF62 /* FilmFest-TDDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		677823DF2DFF076D008EEF62 /* FilmFest-TDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677824092DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDD" */;
+			buildPhases = (
+				677823DC2DFF076D008EEF62 /* Sources */,
+				677823DD2DFF076D008EEF62 /* Frameworks */,
+				677823DE2DFF076D008EEF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				677823E22DFF076D008EEF62 /* FilmFest-TDD */,
+			);
+			name = "FilmFest-TDD";
+			packageProductDependencies = (
+			);
+			productName = "FilmFest-TDD";
+			productReference = 677823E02DFF076D008EEF62 /* FilmFest-TDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		677823F52DFF076F008EEF62 /* FilmFest-TDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6778240E2DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDDTests" */;
+			buildPhases = (
+				677823F22DFF076F008EEF62 /* Sources */,
+				677823F32DFF076F008EEF62 /* Frameworks */,
+				677823F42DFF076F008EEF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677823F82DFF076F008EEF62 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				677823F92DFF076F008EEF62 /* FilmFest-TDDTests */,
+			);
+			name = "FilmFest-TDDTests";
+			packageProductDependencies = (
+			);
+			productName = "FilmFest-TDDTests";
+			productReference = 677823F62DFF076F008EEF62 /* FilmFest-TDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		677823FF2DFF076F008EEF62 /* FilmFest-TDDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677824112DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDDUITests" */;
+			buildPhases = (
+				677823FC2DFF076F008EEF62 /* Sources */,
+				677823FD2DFF076F008EEF62 /* Frameworks */,
+				677823FE2DFF076F008EEF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677824022DFF076F008EEF62 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				677824032DFF076F008EEF62 /* FilmFest-TDDUITests */,
+			);
+			name = "FilmFest-TDDUITests";
+			packageProductDependencies = (
+			);
+			productName = "FilmFest-TDDUITests";
+			productReference = 677824002DFF076F008EEF62 /* FilmFest-TDDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		677823D82DFF076D008EEF62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					677823DF2DFF076D008EEF62 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					677823F52DFF076F008EEF62 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 677823DF2DFF076D008EEF62;
+					};
+					677823FF2DFF076F008EEF62 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 677823DF2DFF076D008EEF62;
+					};
+				};
+			};
+			buildConfigurationList = 677823DB2DFF076D008EEF62 /* Build configuration list for PBXProject "FilmFest-TDD" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 677823D72DFF076D008EEF62;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 677823E12DFF076D008EEF62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677823DF2DFF076D008EEF62 /* FilmFest-TDD */,
+				677823F52DFF076F008EEF62 /* FilmFest-TDDTests */,
+				677823FF2DFF076F008EEF62 /* FilmFest-TDDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		677823DE2DFF076D008EEF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823F42DFF076F008EEF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823FE2DFF076F008EEF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		677823DC2DFF076D008EEF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823F22DFF076F008EEF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677823FC2DFF076F008EEF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677823F82DFF076F008EEF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677823DF2DFF076D008EEF62 /* FilmFest-TDD */;
+			targetProxy = 677823F72DFF076F008EEF62 /* PBXContainerItemProxy */;
+		};
+		677824022DFF076F008EEF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677823DF2DFF076D008EEF62 /* FilmFest-TDD */;
+			targetProxy = 677824012DFF076F008EEF62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6778240A2DFF076F008EEF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FilmFest-TDD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6778240B2DFF076F008EEF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FilmFest-TDD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6778240C2DFF076F008EEF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6778240D2DFF076F008EEF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6778240F2DFF076F008EEF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmFest-TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FilmFest-TDD";
+			};
+			name = Debug;
+		};
+		677824102DFF076F008EEF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilmFest-TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FilmFest-TDD";
+			};
+			name = Release;
+		};
+		677824122DFF076F008EEF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FilmFest-TDD";
+			};
+			name = Debug;
+		};
+		677824132DFF076F008EEF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH4SDJ7B5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nera.FilmFest-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FilmFest-TDD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		677823DB2DFF076D008EEF62 /* Build configuration list for PBXProject "FilmFest-TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778240C2DFF076F008EEF62 /* Debug */,
+				6778240D2DFF076F008EEF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677824092DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778240A2DFF076F008EEF62 /* Debug */,
+				6778240B2DFF076F008EEF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6778240E2DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778240F2DFF076F008EEF62 /* Debug */,
+				677824102DFF076F008EEF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677824112DFF076F008EEF62 /* Build configuration list for PBXNativeTarget "FilmFest-TDDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677824122DFF076F008EEF62 /* Debug */,
+				677824132DFF076F008EEF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 677823D82DFF076D008EEF62 /* Project object */;
+}
