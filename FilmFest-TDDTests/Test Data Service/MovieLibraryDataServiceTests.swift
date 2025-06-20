@@ -86,7 +86,7 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         XCTAssertTrue(mock.cellDequeuedProperly)
     }
 
-}
+} 
 
 extension MovieLibraryDataServiceTests{
     
