@@ -88,16 +88,5 @@ final class MovieLibraryDataServiceTests: XCTestCase {
 
 } 
 
-extension MovieLibraryDataServiceTests{
-    
-    class TableViewMock:UITableView{
-        var cellDequeuedProperly = false
-        
-        override func dequeueReusableCell(withIdentifier identifier: String, for indexPath: IndexPath) -> UITableViewCell {
-            cellDequeuedProperly = true
-            
-            return super.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
-        }
-    }
-}
+
 
