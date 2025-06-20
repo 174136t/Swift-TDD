@@ -13,6 +13,7 @@ final class MovieLibraryDataServiceTests: XCTestCase {
     var sut: MovieLibraryDataService!
     var libraryTableView: UITableView!
     var libraryVC: LibraryViewController!
+    var tableViewMock: TableViewMock!
     
     let fairyMovie = Movie(title: "Fairy")
     let actionMovie = Movie(title: "Action")
@@ -22,6 +23,8 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         sut = MovieLibraryDataService()
         sut.movieManager = MovieManager()
+        
+        tableViewMock = TableViewMock.initMock(datasource: sut)
         
         libraryVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "LibraryViewControllerID") as? LibraryViewController
         _ = libraryVC.view
@@ -75,15 +78,32 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         XCTAssertTrue(cellQueried is MovieCell)
     }
     
-    func testCell_shouldDequeueCell(){
-        let mock = TableViewMock()
-        mock.dataSource = sut
-        mock.register(MovieCell.self, forCellReuseIdentifier: "movieCellID")
+    func testCell_ShouldDequeueCell(){
         
         sut.movieManager?.addMovie(movie: comedyMovie)
-        mock.reloadData()
-        _ = mock.cellForRow(at: IndexPath(row: 0, section: 0))
-        XCTAssertTrue(mock.cellDequeuedProperly)
+        tableViewMock.reloadData()
+        _ = tableViewMock.cellForRow(at: IndexPath(row: 0, section: 0))
+        XCTAssertTrue(tableViewMock.cellDequeuedProperly)
+    }
+    
+    func testCell_SectionOneConfig_ShouldSetCellData(){
+        
+        sut.movieManager?.addMovie(movie: actionMovie)
+        tableViewMock.reloadData()
+        
+        let cell = tableViewMock.cellForRow(at: IndexPath(row: 0, section: 0)) as! MovieCellMock
+        XCTAssertEqual(cell.movieData, actionMovie)
+    }
+    
+    func testCell_SectionTwoConfig_ShouldSetCellData(){
+        
+        sut.movieManager?.addMovie(movie: actionMovie)
+        sut.movieManager?.addMovie(movie: comedyMovie)
+        sut.movieManager?.checkOffMovieAtIndex(index: 0)
+        tableViewMock.reloadData()
+        
+        let cell = tableViewMock.cellForRow(at: IndexPath(row: 0, section: 1)) as! MovieCellMock
+        XCTAssertEqual(cell.movieData, actionMovie)
     }
 
 } 
