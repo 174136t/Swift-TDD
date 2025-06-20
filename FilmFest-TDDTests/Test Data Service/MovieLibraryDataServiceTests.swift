@@ -12,6 +12,7 @@ final class MovieLibraryDataServiceTests: XCTestCase {
 
     var sut: MovieLibraryDataService!
     var libraryTableView: UITableView!
+    var libraryVC: LibraryViewController!
     
     let fairyMovie = Movie(title: "Fairy")
     let actionMovie = Movie(title: "Action")
@@ -22,8 +23,12 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         sut = MovieLibraryDataService()
         sut.movieManager = MovieManager()
         
-        libraryTableView = UITableView()
+        libraryVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "LibraryViewControllerID") as? LibraryViewController
+        _ = libraryVC.view
+        
+        libraryTableView = libraryVC.libraryTableView
         libraryTableView.dataSource = sut
+        libraryTableView.delegate = sut
     }
 
     override func tearDownWithError() throws {
@@ -69,6 +74,17 @@ final class MovieLibraryDataServiceTests: XCTestCase {
         let cellQueried = libraryTableView.cellForRow(at: IndexPath(row: 0, section: 0))
         XCTAssertTrue(cellQueried is MovieCell)
     }
+    
+    func testCell_shouldDequeueCell(){
+        let mock = TableViewMock()
+        mock.dataSource = sut
+        mock.register(MovieCell.self, forCellReuseIdentifier: "movieCellID")
+        
+        sut.movieManager?.addMovie(movie: comedyMovie)
+        mock.reloadData()
+        _ = mock.cellForRow(at: IndexPath(row: 0, section: 0))
+        XCTAssertTrue(mock.cellDequeuedProperly)
+    }
 
 }
 
@@ -76,6 +92,12 @@ extension MovieLibraryDataServiceTests{
     
     class TableViewMock:UITableView{
         var cellDequeuedProperly = false
+        
+        override func dequeueReusableCell(withIdentifier identifier: String, for indexPath: IndexPath) -> UITableViewCell {
+            cellDequeuedProperly = true
+            
+            return super.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
+        }
     }
 }
 
