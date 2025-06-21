@@ -21,7 +21,8 @@ class MovieCell: UITableViewCell {
     }
     
     func configMovieCell(movie: Movie) {
-        
+        self.textLabel?.text = movie.title
+        self.detailTextLabel?.text = movie.releaseDate
     }
 
 }

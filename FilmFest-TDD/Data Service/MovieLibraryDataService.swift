@@ -49,4 +49,14 @@ class MovieLibraryDataService: NSObject, UITableViewDataSource, UITableViewDeleg
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let movieManager = movieManager else {fatalError()}
+        guard let librarySection = LibrarySection(rawValue: indexPath.section) else {fatalError()}
+        
+        if librarySection == .MoviesToSee {
+            movieManager.checkOffMovieAtIndex(index: indexPath.row)
+            tableView.reloadData()
+        }
+    }
 }
